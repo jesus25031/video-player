@@ -1,7 +1,8 @@
 @import './buttons.css';
 
 body {
-    background-color: #26b4bc;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     font-family: Arial, Helvetica, sans-serif
 }
 
@@ -13,6 +14,8 @@ body {
 .player {
     margin-block-start: 100px;
     position: relative;
+    margin-top: 6%;
+    filter: drop-shadow(5px 5px 10px #FF0101);
 }
 
 .player video {
